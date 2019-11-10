@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Fredoka+One&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+   background: beige;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+h1{
+    font-family: 'Baloo Chettan', cursive;
+    float:right;
+    display: inline;
+    padding: 5%;
+    padding-right: 15%;
+    color: rgb(29, 109, 19);
+    font-size:30px;
+}
+
+.textos{
+    display: inline;
+}
+
+#headline a img, #featured a img {
+	border:1px solid #bbb;
+	margin-top:5px;
+	margin-right:10px;
+	}
+
+* {
+
+	margin:0;
+
+	padding:0;
+
+	}
+
+a:link, a:visited {
+
+	color: #3c57a7;
+
+	text-decoration:none
+
+    }
+    
+a:hover, a:active {
+
+	color: #3c57a7;
+
+	text-decoration:underline;
+
+	}
+
+#featured {
+
+	float:right;
+    margin:3px;
+    padding-right: 5%!important;
+	width:300px;
+    border: 0px 10px 0px 0px solid #000;
+   
+
+	}
+
+#featured .clearfloat {
+
+	margin-top:7px;
+
+	margin-bottom:9px;
+
+	}
+
+
+
+#featured .info {
+
+	margin-top:5px;
+
+	padding-top:5px;
+
+	float:right;
+
+	width:185px;
+
+	}
+
+#featured .title {
+	font-weight:bold;
+	}
+
+
+
+#featured .divider {
+
+	margin-left:85px;
+
+	}
+
+.clearfloat:after {
+
+	content:".";
+
+	display:block;
+
+	height:0;
+
+	clear:both;
+
+	visibility:hidden;
+
+	}
+
+
+
+.clearfloat {
+
+	display: inline-block;
+
+	}
